@@ -1,0 +1,44 @@
+#!/usr/bin/expect -f 
+set timeout 6 
+set ip	[lindex $argv 0]
+set port [lindex $argv 1]
+set passwd [lindex $argv 2]
+set user [lindex $argv 3]
+set cert [lindex $argv 4]
+trap {
+	set rows [stty rows]
+	set cols [stty columns]
+	stty rows $rows columns $cols < $spawn_out(slave,name)
+	} WINCH
+
+if {$argc == 5} {
+			spawn zssh -p $port -i /bash/cert/$cert $user@$ip
+			expect {
+				"${cert}*" {send "$passwd\r"}
+				}
+			interact			
+}
+if {$argc == 4} {
+			if {$ip == "172.25.15.33"} {
+			spawn zssh -p $port  $user@$ip
+			expect  {
+                                "*password*" {send "$passwd\r"}
+                                }
+                        expect "*login*" {send "1\r"}
+                        expect "*login*" {send "6\r"}
+                        expect "*login*" {send "1\r"}
+			sleep 1
+                        expect "*input*" {send "root\r"}
+                        expect "*passwd*" {send "1qaz@wsx\r"}
+			sleep 1
+			interact
+			} else {
+			spawn zssh -p $port  $user@$ip
+			expect {
+				"*password*" {send "$passwd\r"}
+				}}
+			interact
+		}
+
+
+
