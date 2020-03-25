@@ -1,5 +1,11 @@
 #!/bin/bash
 
+content=`wget -q -O - http://icanhazip.com/|sed 's/\.//g'`
+content_ip_record=`ping fuckme.ingogogo.com -c 1|grep -oP '(?<=\().*(?=\):)'|sed 's/\.//g'`
+
+api_token="API_TOKEN"
+id="ID"
+
 #添加域名信息
 function add_domin()
 {
@@ -36,8 +42,7 @@ curl -X POST https://dnsapi.cn/Record.Modify -d "login_token=148346,cfacc360bc75
 
 #获取外网ip
 
-content=`wget -q -O - http://icanhazip.com/|sed 's/\.//g'`
-content_ip_record=`ping fuckme.ingogogo.com -c 1|grep -oP '(?<=\().*(?=\):)'|sed 's/\.//g'`
+
 
 function judge()
 {
