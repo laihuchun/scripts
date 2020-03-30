@@ -1,7 +1,11 @@
 #!/bin/bash
 
 content=`wget -q -O - http://icanhazip.com/|sed 's/\.//g'`
-content_ip_record=`ping fuckme.ingogogo.com -c 1|grep -oP '(?<=\().*(?=\):)'|sed 's/\.//g'`
+content_ip_record=`ping fuckme.ingogogo.com -c 1|grep -oP '(?<=\().*(?=\) \d)'|sed 's/\.//g'`
+dns_ip_len=`echo $content_ip_record|wc -l`
+if [ length(dns_ip_len) -eq 5 ];
+then content_ip_record='114114114114'
+fi
 # api_token 去这里申请 https://www.dnspod.cn/console/user/security 
 
 
@@ -44,8 +48,8 @@ curl -X POST https://dnsapi.cn/Record.Modify -d "login_token=$id,$api_token&form
 
 function judge()
 {
-if [ $content = $content_ip_record ]; 
-	then echo 11; 
-else echo 22; 
+if [ $content == $content_ip_record ];
+	then echo 'do nothing';
+else modify_record $content;
 fi
-}	
+}
