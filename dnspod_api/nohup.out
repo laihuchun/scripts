@@ -6282,3 +6282,693 @@ A unified platform for anti-censorship.
 2020/04/04 10:50:14 [Info] [1540216556] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
 2020/04/04 10:50:23 [Info] [501171347] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
 2020/04/04 10:50:23 [Info] [501171347] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:50:30 [Info] [1119063813] v2ray.com/core/proxy/socks: TCP Connect request to tcp:accounts.google.com:443
+2020/04/04 10:50:30 tcp:127.0.0.1:56798 accepted tcp:accounts.google.com:443 
+2020/04/04 10:50:30 [Info] [1119063813] v2ray.com/core/app/dispatcher: sniffed domain: accounts.google.com
+2020/04/04 10:50:30 [Info] [1119063813] v2ray.com/core/app/dispatcher: default route for tcp:accounts.google.com:443
+2020/04/04 10:50:30 [Info] [1119063813] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:50:31 [Info] [1119063813] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:accounts.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:50:44 [Info] [3470905765] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:50:44 [Info] [3470905765] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:50:44 tcp:127.0.0.1:56827 accepted tcp:mtalk.google.com:5228 
+2020/04/04 10:50:44 [Info] [1410767996] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 10:50:44 [Info] [1410767996] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 10:50:44 [Info] [1410767996] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 10:50:44 [Info] [1410767996] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:50:45 [Info] [1410767996] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 10:50:46 [Info] [1992641351] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:50:46 [Info] [1992641351] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:50:53 [Info] [1366584826] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:50:53 [Info] [1366584826] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:50:53 [Info] [2286964703] v2ray.com/core/proxy/socks: TCP Connect request to tcp:clients4.google.com:443
+2020/04/04 10:50:53 tcp:127.0.0.1:56850 accepted tcp:clients4.google.com:443 
+2020/04/04 10:50:53 [Info] [2286964703] v2ray.com/core/app/dispatcher: sniffed domain: clients4.google.com
+2020/04/04 10:50:53 [Info] [2286964703] v2ray.com/core/app/dispatcher: default route for tcp:clients4.google.com:443
+2020/04/04 10:50:53 [Info] [2286964703] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:50:55 [Info] [2286964703] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:clients4.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:51:05 [Info] [1686582943] v2ray.com/core/proxy/http: request to Method [GET] Host [fuckme.ingogogo.com:9999] with URL [http://fuckme.ingogogo.com:9999/]
+2020/04/04 10:51:05 127.0.0.1:56876 accepted http://fuckme.ingogogo.com:9999/  
+2020/04/04 10:51:05 [Info] [1686582943] v2ray.com/core/app/dispatcher: sniffed domain: fuckme.ingogogo.com
+2020/04/04 10:51:05 [Info] [1686582943] v2ray.com/core/app/dispatcher: default route for tcp:fuckme.ingogogo.com:9999
+2020/04/04 10:51:05 [Info] [1686582943] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:51:06 [Info] [1686582943] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:fuckme.ingogogo.com:9999 via tcp:www.ingogogo.com:443
+2020/04/04 10:51:09 [Info] [795551747] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: failed to read http request > read tcp 127.0.0.1:1087->127.0.0.1:56877: i/o timeout
+2020/04/04 10:51:12 [Info] [2860804883] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [gateway.icloud.com:443] with URL [//gateway.icloud.com:443]
+2020/04/04 10:51:12 127.0.0.1:56891 accepted //gateway.icloud.com:443  
+2020/04/04 10:51:12 [Info] [2860804883] v2ray.com/core/app/dispatcher: sniffed domain: gateway.icloud.com
+2020/04/04 10:51:12 [Info] [2860804883] v2ray.com/core/app/dispatcher: default route for tcp:gateway.icloud.com:443
+2020/04/04 10:51:12 [Info] [2860804883] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:51:13 [Info] [2860804883] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:gateway.icloud.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:51:18 [Info] [1665520483] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [code.jivosite.com:443] with URL [//code.jivosite.com:443]
+2020/04/04 10:51:18 127.0.0.1:56903 accepted //code.jivosite.com:443  
+2020/04/04 10:51:18 [Info] [1665520483] v2ray.com/core/app/dispatcher: sniffed domain: code.jivosite.com
+2020/04/04 10:51:18 [Info] [1665520483] v2ray.com/core/app/dispatcher: default route for tcp:code.jivosite.com:443
+2020/04/04 10:51:18 [Info] [1665520483] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:51:18 127.0.0.1:56906 accepted //code.jivosite.com:443  
+2020/04/04 10:51:18 127.0.0.1:56905 accepted //code.jivosite.com:443  
+2020/04/04 10:51:18 [Info] [2716046167] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [code.jivosite.com:443] with URL [//code.jivosite.com:443]
+2020/04/04 10:51:18 [Info] [703350848] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [code.jivosite.com:443] with URL [//code.jivosite.com:443]
+2020/04/04 10:51:18 [Info] [703350848] v2ray.com/core/app/dispatcher: sniffed domain: code.jivosite.com
+2020/04/04 10:51:18 [Info] [703350848] v2ray.com/core/app/dispatcher: default route for tcp:code.jivosite.com:443
+2020/04/04 10:51:18 [Info] [703350848] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:51:18 [Info] [2716046167] v2ray.com/core/app/dispatcher: sniffed domain: code.jivosite.com
+2020/04/04 10:51:18 [Info] [2716046167] v2ray.com/core/app/dispatcher: default route for tcp:code.jivosite.com:443
+2020/04/04 10:51:18 [Info] [2716046167] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:51:18 [Info] [1665520483] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:code.jivosite.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:51:19 [Info] [703350848] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:code.jivosite.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:51:19 [Info] [703350848] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: connection ends > writev tcp 127.0.0.1:1087->127.0.0.1:56906: writev: broken pipe
+2020/04/04 10:51:19 [Info] [703350848] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > context canceled
+2020/04/04 10:51:19 [Info] [2716046167] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:code.jivosite.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:51:20 [Info] [2716046167] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: connection ends > write tcp 127.0.0.1:1087->127.0.0.1:56905: write: broken pipe
+2020/04/04 10:51:20 [Info] [2716046167] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > context canceled
+2020/04/04 10:51:29 [Info] [750720031] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [clients4.google.com:443] with URL [//clients4.google.com:443]
+2020/04/04 10:51:29 [Info] [750720031] v2ray.com/core/app/dispatcher: sniffed domain: clients4.google.com
+2020/04/04 10:51:29 [Info] [750720031] v2ray.com/core/app/dispatcher: default route for tcp:clients4.google.com:443
+2020/04/04 10:51:29 [Info] [750720031] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:51:29 127.0.0.1:56927 accepted //clients4.google.com:443  
+2020/04/04 10:51:30 [Info] [750720031] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:clients4.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:51:32 [Info] [581607408] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [play.google.com:443] with URL [//play.google.com:443]
+2020/04/04 10:51:32 127.0.0.1:56935 accepted //play.google.com:443  
+2020/04/04 10:51:32 [Info] [581607408] v2ray.com/core/app/dispatcher: sniffed domain: play.google.com
+2020/04/04 10:51:32 [Info] [581607408] v2ray.com/core/app/dispatcher: default route for tcp:play.google.com:443
+2020/04/04 10:51:32 [Info] [581607408] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:51:32 [Info] [1119063813] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:51:32 [Info] [1119063813] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:51:34 [Info] [581607408] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:play.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:51:40 [Info] [4278478458] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [www.dnspod.cn:443] with URL [//www.dnspod.cn:443]
+2020/04/04 10:51:40 127.0.0.1:56949 accepted //www.dnspod.cn:443  
+2020/04/04 10:51:40 [Info] [2992943724] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [pub.idqqimg.com:443] with URL [//pub.idqqimg.com:443]
+2020/04/04 10:51:40 127.0.0.1:56950 accepted //pub.idqqimg.com:443  
+2020/04/04 10:51:40 [Info] [2750908968] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [imgcache.qq.com:443] with URL [//imgcache.qq.com:443]
+2020/04/04 10:51:40 127.0.0.1:56951 accepted //imgcache.qq.com:443  
+2020/04/04 10:51:40 [Info] [4278478458] v2ray.com/core/app/dispatcher: sniffed domain: www.dnspod.cn
+2020/04/04 10:51:40 [Info] [4278478458] v2ray.com/core/app/dispatcher: default route for tcp:www.dnspod.cn:443
+2020/04/04 10:51:40 [Info] [4278478458] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:51:40 [Info] [459958193] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [img.qcloud.com:443] with URL [//img.qcloud.com:443]
+2020/04/04 10:51:40 127.0.0.1:56952 accepted //img.qcloud.com:443  
+2020/04/04 10:51:40 [Info] [2750908968] v2ray.com/core/app/dispatcher: sniffed domain: imgcache.qq.com
+2020/04/04 10:51:40 [Info] [2750908968] v2ray.com/core/app/dispatcher: default route for tcp:imgcache.qq.com:443
+2020/04/04 10:51:40 [Info] [2750908968] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:51:40 [Info] [2992943724] v2ray.com/core/app/dispatcher: sniffed domain: pub.idqqimg.com
+2020/04/04 10:51:40 [Info] [2992943724] v2ray.com/core/app/dispatcher: default route for tcp:pub.idqqimg.com:443
+2020/04/04 10:51:40 [Info] [2992943724] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:51:40 [Info] [459958193] v2ray.com/core/app/dispatcher: sniffed domain: img.qcloud.com
+2020/04/04 10:51:40 [Info] [459958193] v2ray.com/core/app/dispatcher: default route for tcp:img.qcloud.com:443
+2020/04/04 10:51:40 [Info] [459958193] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:51:41 [Info] [4278478458] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:www.dnspod.cn:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:51:41 [Info] [2750908968] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:imgcache.qq.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:51:41 [Info] [2992943724] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:pub.idqqimg.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:51:42 [Info] [459958193] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:img.qcloud.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:51:43 127.0.0.1:56966 accepted //imgcache.qq.com:443  
+2020/04/04 10:51:43 [Info] [13345831] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [imgcache.qq.com:443] with URL [//imgcache.qq.com:443]
+2020/04/04 10:51:43 [Info] [13345831] v2ray.com/core/app/dispatcher: sniffed domain: imgcache.qq.com
+2020/04/04 10:51:43 [Info] [13345831] v2ray.com/core/app/dispatcher: default route for tcp:imgcache.qq.com:443
+2020/04/04 10:51:43 [Info] [13345831] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:51:44 [Info] [13345831] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:imgcache.qq.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:51:45 [Info] [13345831] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: connection ends > context canceled
+2020/04/04 10:51:45 [Info] [13345831] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > context canceled
+2020/04/04 10:51:47 [Info] [3134953564] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [docs.google.com:443] with URL [//docs.google.com:443]
+2020/04/04 10:51:47 127.0.0.1:56974 accepted //docs.google.com:443  
+2020/04/04 10:51:47 [Info] [3134953564] v2ray.com/core/app/dispatcher: sniffed domain: docs.google.com
+2020/04/04 10:51:47 [Info] [3134953564] v2ray.com/core/app/dispatcher: default route for tcp:docs.google.com:443
+2020/04/04 10:51:47 [Info] [3134953564] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:51:47 [Info] [3134953564] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:docs.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:51:48 [Info] [1410767996] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:51:48 [Info] [1410767996] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:51:48 [Info] [1639142419] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [mtalk.google.com:5228] with URL [//mtalk.google.com:5228]
+2020/04/04 10:51:48 127.0.0.1:56976 accepted //mtalk.google.com:5228  
+2020/04/04 10:51:48 [Info] [1639142419] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 10:51:48 [Info] [1639142419] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 10:51:48 [Info] [1639142419] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:51:48 [Info] [1639142419] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 10:51:53 [Info] [4183682905] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [qzonestyle.gtimg.cn:443] with URL [//qzonestyle.gtimg.cn:443]
+2020/04/04 10:51:53 127.0.0.1:56987 accepted //qzonestyle.gtimg.cn:443  
+2020/04/04 10:51:53 [Info] [4183682905] v2ray.com/core/app/dispatcher: sniffed domain: qzonestyle.gtimg.cn
+2020/04/04 10:51:53 [Info] [4183682905] v2ray.com/core/app/dispatcher: default route for tcp:qzonestyle.gtimg.cn:443
+2020/04/04 10:51:53 [Info] [4183682905] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:51:53 [Info] [536656499] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [tudg.qq.com:443] with URL [//tudg.qq.com:443]
+2020/04/04 10:51:53 127.0.0.1:56988 accepted //tudg.qq.com:443  
+2020/04/04 10:51:53 [Info] [536656499] v2ray.com/core/app/dispatcher: sniffed domain: tudg.qq.com
+2020/04/04 10:51:53 [Info] [536656499] v2ray.com/core/app/dispatcher: default route for tcp:tudg.qq.com:443
+2020/04/04 10:51:53 [Info] [536656499] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:51:54 [Info] [536656499] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:tudg.qq.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:51:54 [Info] [4183682905] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:qzonestyle.gtimg.cn:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:51:54 [Info] [2992943724] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: connection ends > context canceled
+2020/04/04 10:51:54 [Info] [2992943724] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > context canceled
+2020/04/04 10:51:56 [Info] [2286964703] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:51:56 [Info] [2286964703] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:52:02 [Info] [2569803717] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [hm.baidu.com:443] with URL [//hm.baidu.com:443]
+2020/04/04 10:52:02 127.0.0.1:57007 accepted //hm.baidu.com:443  
+2020/04/04 10:52:02 [Info] [2569803717] v2ray.com/core/app/dispatcher: sniffed domain: hm.baidu.com
+2020/04/04 10:52:02 [Info] [2569803717] v2ray.com/core/app/dispatcher: default route for tcp:hm.baidu.com:443
+2020/04/04 10:52:02 [Info] [2569803717] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:52:02 [Info] [2901384427] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [pingjs.qq.com:443] with URL [//pingjs.qq.com:443]
+2020/04/04 10:52:02 127.0.0.1:57008 accepted //pingjs.qq.com:443  
+2020/04/04 10:52:02 [Info] [2901384427] v2ray.com/core/app/dispatcher: sniffed domain: pingjs.qq.com
+2020/04/04 10:52:02 [Info] [2901384427] v2ray.com/core/app/dispatcher: default route for tcp:pingjs.qq.com:443
+2020/04/04 10:52:02 [Info] [2901384427] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:52:03 [Info] [2901384427] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:pingjs.qq.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:52:03 [Info] [2569803717] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:hm.baidu.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:52:05 [Info] [3857640702] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [hm.baidu.com:443] with URL [//hm.baidu.com:443]
+2020/04/04 10:52:05 127.0.0.1:57017 accepted //hm.baidu.com:443  
+2020/04/04 10:52:05 [Info] [3857640702] v2ray.com/core/app/dispatcher: sniffed domain: hm.baidu.com
+2020/04/04 10:52:05 [Info] [3857640702] v2ray.com/core/app/dispatcher: default route for tcp:hm.baidu.com:443
+2020/04/04 10:52:05 [Info] [3857640702] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:52:05 [Info] [632059900] v2ray.com/core/proxy/http: request to Method [CONNECT] Host [pingtas.qq.com:443] with URL [//pingtas.qq.com:443]
+2020/04/04 10:52:05 [Info] [632059900] v2ray.com/core/app/dispatcher: sniffed domain: pingtas.qq.com
+2020/04/04 10:52:05 127.0.0.1:57019 accepted //pingtas.qq.com:443  
+2020/04/04 10:52:05 [Info] [632059900] v2ray.com/core/app/dispatcher: default route for tcp:pingtas.qq.com:443
+2020/04/04 10:52:05 [Info] [632059900] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:52:05 [Info] [632059900] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:pingtas.qq.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:52:06 [Info] [1686582943] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > v2ray.com/core/proxy/vmess/outbound: failed to read header > v2ray.com/core/proxy/vmess/encoding: failed to read response header > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:52:06 [Warning] [1686582943] v2ray.com/core/proxy/http: failed to read response from fuckme.ingogogo.com:9999 > io: read/write on closed pipe
+2020/04/04 10:52:06 [Info] [1686582943] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: failed to read http request > EOF
+2020/04/04 10:52:06 [Info] [3857640702] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:hm.baidu.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:52:07 [Info] [536656499] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: connection ends > context canceled
+2020/04/04 10:52:07 [Info] [536656499] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > context canceled
+2020/04/04 10:52:10 [Info] [3827779372] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: failed to read http request > read tcp 127.0.0.1:1087->127.0.0.1:57025: i/o timeout
+2020/04/04 10:52:10 [Info] [284103833] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: failed to read http request > read tcp 127.0.0.1:1087->127.0.0.1:57024: i/o timeout
+2020/04/04 10:52:17 [Info] [2569803717] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: connection ends > context canceled
+2020/04/04 10:52:17 [Info] [2569803717] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > io: read/write on closed pipe
+2020/04/04 10:52:17 [Info] [2970747846] v2ray.com/core/proxy/socks: TCP Connect request to tcp:clients4.google.com:443
+2020/04/04 10:52:17 tcp:127.0.0.1:57060 accepted tcp:clients4.google.com:443 
+2020/04/04 10:52:17 [Info] [2970747846] v2ray.com/core/app/dispatcher: sniffed domain: clients4.google.com
+2020/04/04 10:52:17 [Info] [2970747846] v2ray.com/core/app/dispatcher: default route for tcp:clients4.google.com:443
+2020/04/04 10:52:17 [Info] [2970747846] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:52:17 [Info] [2970747846] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:clients4.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:52:19 [Info] [1665520483] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:52:19 [Info] [1665520483] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: connection ends > io: read/write on closed pipe
+2020/04/04 10:52:35 [Info] [581607408] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:52:35 [Info] [581607408] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: connection ends > io: read/write on closed pipe
+2020/04/04 10:52:45 [Info] [459958193] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:52:45 [Info] [459958193] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: connection ends > io: read/write on closed pipe
+2020/04/04 10:52:47 tcp:127.0.0.1:57128 accepted tcp:clients1.google.com:443 
+2020/04/04 10:52:47 [Info] [1251712518] v2ray.com/core/proxy/socks: TCP Connect request to tcp:clients1.google.com:443
+2020/04/04 10:52:47 [Info] [1251712518] v2ray.com/core/app/dispatcher: sniffed domain: clients1.google.com
+2020/04/04 10:52:47 [Info] [1251712518] v2ray.com/core/app/dispatcher: default route for tcp:clients1.google.com:443
+2020/04/04 10:52:47 [Info] [1251712518] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:52:48 [Info] [1251712518] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:clients1.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:52:49 [Info] [1639142419] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:52:49 [Info] [1639142419] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: connection ends > io: read/write on closed pipe
+2020/04/04 10:52:49 [Info] [3122182804] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 10:52:49 tcp:127.0.0.1:57135 accepted tcp:mtalk.google.com:5228 
+2020/04/04 10:52:49 [Info] [3122182804] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 10:52:49 [Info] [3122182804] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 10:52:49 [Info] [3122182804] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:52:49 [Info] [3122182804] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 10:52:51 [Info] [4278478458] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:52:51 [Info] [4278478458] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: connection ends > io: read/write on closed pipe
+2020/04/04 10:52:54 [Info] [750720031] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:52:54 [Info] [750720031] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: connection ends > io: read/write on closed pipe
+2020/04/04 10:52:58 [Info] [2750908968] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:52:58 [Info] [2750908968] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: connection ends > io: read/write on closed pipe
+2020/04/04 10:53:01 [Info] [4183682905] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:53:01 [Info] [4183682905] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: connection ends > io: read/write on closed pipe
+2020/04/04 10:53:05 [Info] [2901384427] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:53:05 [Info] [2901384427] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: connection ends > io: read/write on closed pipe
+2020/04/04 10:53:06 [Info] [632059900] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:53:06 [Info] [632059900] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: connection ends > io: read/write on closed pipe
+2020/04/04 10:53:06 [Info] [3857640702] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:53:06 [Info] [3857640702] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: connection ends > io: read/write on closed pipe
+2020/04/04 10:53:43 [Info] [3134953564] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:53:43 [Info] [3134953564] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/http: connection ends > io: read/write on closed pipe
+2020/04/04 10:53:49 [Info] [1251712518] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:53:49 [Info] [1251712518] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:53:50 [Info] [3122182804] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:53:50 [Info] [3122182804] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:53:50 [Info] [4204240492] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 10:53:50 tcp:127.0.0.1:57247 accepted tcp:mtalk.google.com:5228 
+2020/04/04 10:53:50 [Info] [4204240492] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 10:53:50 [Info] [4204240492] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 10:53:50 [Info] [4204240492] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:53:52 [Info] [4204240492] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 10:53:56 [Info] [1847851716] v2ray.com/core/proxy/socks: TCP Connect request to tcp:play.google.com:443
+2020/04/04 10:53:56 tcp:127.0.0.1:57261 accepted tcp:play.google.com:443 
+2020/04/04 10:53:56 [Info] [1847851716] v2ray.com/core/app/dispatcher: sniffed domain: play.google.com
+2020/04/04 10:53:56 [Info] [1847851716] v2ray.com/core/app/dispatcher: default route for tcp:play.google.com:443
+2020/04/04 10:53:56 [Info] [1847851716] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:53:57 [Info] [1847851716] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:play.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:54:32 [Info] [2970747846] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:54:32 [Info] [2970747846] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:54:52 [Info] [4204240492] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:54:52 [Info] [4204240492] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:54:52 [Info] [8281158] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 10:54:52 tcp:127.0.0.1:57371 accepted tcp:mtalk.google.com:5228 
+2020/04/04 10:54:52 [Info] [8281158] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 10:54:52 [Info] [8281158] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 10:54:52 [Info] [8281158] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:54:53 [Info] [8281158] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 10:55:28 [Info] [3271327847] v2ray.com/core/proxy/socks: TCP Connect request to tcp:clients4.google.com:443
+2020/04/04 10:55:28 tcp:127.0.0.1:57441 accepted tcp:clients4.google.com:443 
+2020/04/04 10:55:28 [Info] [3271327847] v2ray.com/core/app/dispatcher: sniffed domain: clients4.google.com
+2020/04/04 10:55:28 [Info] [3271327847] v2ray.com/core/app/dispatcher: default route for tcp:clients4.google.com:443
+2020/04/04 10:55:28 [Info] [3271327847] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:55:29 [Info] [3271327847] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:clients4.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:55:31 [Info] [3972667947] v2ray.com/core/proxy/socks: TCP Connect request to tcp:accounts.google.com:443
+2020/04/04 10:55:31 tcp:127.0.0.1:57446 accepted tcp:accounts.google.com:443 
+2020/04/04 10:55:31 [Info] [3972667947] v2ray.com/core/app/dispatcher: sniffed domain: accounts.google.com
+2020/04/04 10:55:31 [Info] [3972667947] v2ray.com/core/app/dispatcher: default route for tcp:accounts.google.com:443
+2020/04/04 10:55:31 [Info] [3972667947] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:55:31 [Info] [3972667947] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:accounts.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:55:44 [Info] [3311406228] v2ray.com/core/proxy/socks: TCP Connect request to tcp:www.google.com:443
+2020/04/04 10:55:44 tcp:127.0.0.1:57472 accepted tcp:www.google.com:443 
+2020/04/04 10:55:44 [Info] [3311406228] v2ray.com/core/app/dispatcher: sniffed domain: www.google.com
+2020/04/04 10:55:44 [Info] [3311406228] v2ray.com/core/app/dispatcher: default route for tcp:www.google.com:443
+2020/04/04 10:55:44 [Info] [3311406228] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:55:45 [Info] [1216327254] v2ray.com/core/proxy/socks: TCP Connect request to tcp:www.google.com:443
+2020/04/04 10:55:45 tcp:127.0.0.1:57477 accepted tcp:www.google.com:443 
+2020/04/04 10:55:45 [Info] [1216327254] v2ray.com/core/app/dispatcher: sniffed domain: www.google.com
+2020/04/04 10:55:45 [Info] [1216327254] v2ray.com/core/app/dispatcher: default route for tcp:www.google.com:443
+2020/04/04 10:55:45 [Info] [1216327254] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:55:46 [Info] [1216327254] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:www.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:55:46 [Info] [3311406228] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:www.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:55:46 [Info] [1847851716] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:55:46 [Info] [1847851716] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:55:48 [Info] [1187096729] v2ray.com/core/proxy/socks: TCP Connect request to tcp:adservice.google.com:443
+2020/04/04 10:55:48 tcp:127.0.0.1:57482 accepted tcp:adservice.google.com:443 
+2020/04/04 10:55:48 [Info] [1187096729] v2ray.com/core/app/dispatcher: sniffed domain: adservice.google.com
+2020/04/04 10:55:48 [Info] [1187096729] v2ray.com/core/app/dispatcher: default route for tcp:adservice.google.com:443
+2020/04/04 10:55:48 [Info] [1187096729] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:55:49 [Info] [1187096729] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:adservice.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:55:51 [Info] [874829268] v2ray.com/core/proxy/socks: TCP Connect request to tcp:ogs.google.com:443
+2020/04/04 10:55:51 tcp:127.0.0.1:57490 accepted tcp:ogs.google.com:443 
+2020/04/04 10:55:51 [Info] [874829268] v2ray.com/core/app/dispatcher: sniffed domain: ogs.google.com
+2020/04/04 10:55:51 [Info] [874829268] v2ray.com/core/app/dispatcher: default route for tcp:ogs.google.com:443
+2020/04/04 10:55:51 [Info] [874829268] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:55:52 [Info] [874829268] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:ogs.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:55:53 [Info] [3890067549] v2ray.com/core/proxy/socks: TCP Connect request to tcp:www.gstatic.com:443
+2020/04/04 10:55:53 tcp:127.0.0.1:57497 accepted tcp:www.gstatic.com:443 
+2020/04/04 10:55:53 tcp:127.0.0.1:57498 accepted tcp:apis.google.com:443 
+2020/04/04 10:55:53 [Info] [2536379069] v2ray.com/core/proxy/socks: TCP Connect request to tcp:apis.google.com:443
+2020/04/04 10:55:53 [Info] [3890067549] v2ray.com/core/app/dispatcher: sniffed domain: www.gstatic.com
+2020/04/04 10:55:53 [Info] [3890067549] v2ray.com/core/app/dispatcher: default route for tcp:www.gstatic.com:443
+2020/04/04 10:55:53 [Info] [3890067549] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:55:53 [Info] [2536379069] v2ray.com/core/app/dispatcher: sniffed domain: apis.google.com
+2020/04/04 10:55:53 [Info] [2536379069] v2ray.com/core/app/dispatcher: default route for tcp:apis.google.com:443
+2020/04/04 10:55:53 [Info] [2536379069] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:55:53 [Info] [3890067549] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:www.gstatic.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:55:53 [Info] [2536379069] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:apis.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:55:54 [Info] [8281158] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:55:54 [Info] [8281158] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:55:54 [Info] [1761047364] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 10:55:54 tcp:127.0.0.1:57504 accepted tcp:mtalk.google.com:5228 
+2020/04/04 10:55:54 [Info] [1761047364] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 10:55:54 [Info] [1761047364] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 10:55:54 [Info] [1761047364] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:55:54 [Info] [2477478178] v2ray.com/core/proxy/socks: TCP Connect request to tcp:play.google.com:443
+2020/04/04 10:55:54 tcp:127.0.0.1:57506 accepted tcp:play.google.com:443 
+2020/04/04 10:55:54 [Info] [2477478178] v2ray.com/core/app/dispatcher: sniffed domain: play.google.com
+2020/04/04 10:55:54 [Info] [2477478178] v2ray.com/core/app/dispatcher: default route for tcp:play.google.com:443
+2020/04/04 10:55:54 [Info] [2477478178] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:55:55 [Info] [1761047364] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 10:55:55 [Info] [2477478178] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:play.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:55:57 [Info] [3311406228] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > context canceled
+2020/04/04 10:55:58 [Info] [3311406228] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > context canceled
+2020/04/04 10:56:05 [Info] [3290775750] v2ray.com/core/proxy/socks: TCP Connect request to tcp:play.google.com:443
+2020/04/04 10:56:05 tcp:127.0.0.1:57552 accepted tcp:play.google.com:443 
+2020/04/04 10:56:05 [Info] [3290775750] v2ray.com/core/app/dispatcher: sniffed domain: play.google.com
+2020/04/04 10:56:05 [Info] [3290775750] v2ray.com/core/app/dispatcher: default route for tcp:play.google.com:443
+2020/04/04 10:56:05 [Info] [3290775750] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:56:06 [Info] [3290775750] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:play.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:56:06 [Info] [3890067549] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > context canceled
+2020/04/04 10:56:06 [Info] [3890067549] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > context canceled
+2020/04/04 10:56:06 [Info] [2536379069] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > context canceled
+2020/04/04 10:56:06 [Info] [2536379069] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > context canceled
+2020/04/04 10:56:21 [Info] [2627081322] v2ray.com/core/proxy/socks: TCP Connect request to tcp:clients1.google.com:443
+2020/04/04 10:56:21 tcp:127.0.0.1:57595 accepted tcp:clients1.google.com:443 
+2020/04/04 10:56:21 [Info] [2627081322] v2ray.com/core/app/dispatcher: sniffed domain: clients1.google.com
+2020/04/04 10:56:21 [Info] [2627081322] v2ray.com/core/app/dispatcher: default route for tcp:clients1.google.com:443
+2020/04/04 10:56:21 [Info] [2627081322] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:56:22 [Info] [2627081322] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:clients1.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:56:32 [Info] [3972667947] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:56:32 [Info] [3972667947] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:56:49 [Info] [1187096729] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:56:49 [Info] [1187096729] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:56:53 [Info] [874829268] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:56:53 [Info] [874829268] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:56:55 [Info] [2477478178] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:56:55 [Info] [2477478178] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:56:55 [Info] [1761047364] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:56:55 [Info] [1761047364] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:56:55 tcp:127.0.0.1:57665 accepted tcp:mtalk.google.com:5228 
+2020/04/04 10:56:55 [Info] [650311544] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 10:56:55 [Info] [650311544] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 10:56:55 [Info] [650311544] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 10:56:55 [Info] [650311544] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:56:56 [Info] [650311544] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 10:57:08 [Info] [3290775750] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:57:08 [Info] [3290775750] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:57:44 [Info] [1216327254] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:57:44 [Info] [1216327254] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:57:56 [Info] [650311544] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:57:56 [Info] [650311544] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:57:56 [Info] [1007298515] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 10:57:56 tcp:127.0.0.1:57773 accepted tcp:mtalk.google.com:5228 
+2020/04/04 10:57:56 [Info] [1007298515] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 10:57:56 [Info] [1007298515] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 10:57:56 [Info] [1007298515] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:57:57 [Info] [1007298515] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 10:58:00 [Info] [2627081322] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:58:00 [Info] [2627081322] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:58:02 [Info] [3271327847] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:58:02 [Info] [3271327847] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:58:25 [Info] [1180298849] v2ray.com/core/proxy/socks: TCP Connect request to tcp:clients4.google.com:443
+2020/04/04 10:58:25 tcp:127.0.0.1:57833 accepted tcp:clients4.google.com:443 
+2020/04/04 10:58:25 [Info] [1180298849] v2ray.com/core/app/dispatcher: sniffed domain: clients4.google.com
+2020/04/04 10:58:25 [Info] [1180298849] v2ray.com/core/app/dispatcher: default route for tcp:clients4.google.com:443
+2020/04/04 10:58:25 [Info] [1180298849] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:58:26 [Info] [1180298849] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:clients4.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:58:57 [Info] [1619517361] v2ray.com/core/proxy/socks: TCP Connect request to tcp:play.google.com:443
+2020/04/04 10:58:57 tcp:127.0.0.1:57890 accepted tcp:play.google.com:443 
+2020/04/04 10:58:57 [Info] [1619517361] v2ray.com/core/app/dispatcher: sniffed domain: play.google.com
+2020/04/04 10:58:57 [Info] [1619517361] v2ray.com/core/app/dispatcher: default route for tcp:play.google.com:443
+2020/04/04 10:58:57 [Info] [1619517361] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:58:58 [Info] [1007298515] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:58:58 [Info] [1007298515] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:58:58 [Info] [3027804627] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 10:58:58 [Info] [3027804627] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 10:58:58 [Info] [3027804627] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 10:58:58 [Info] [3027804627] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:58:58 tcp:127.0.0.1:57895 accepted tcp:mtalk.google.com:5228 
+2020/04/04 10:58:58 [Info] [1619517361] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:play.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:58:58 [Info] [3027804627] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 10:59:30 [Info] [4152388356] v2ray.com/core/proxy/socks: TCP Connect request to tcp:accounts.google.com:443
+2020/04/04 10:59:30 tcp:127.0.0.1:57955 accepted tcp:accounts.google.com:443 
+2020/04/04 10:59:30 [Info] [4152388356] v2ray.com/core/app/dispatcher: sniffed domain: accounts.google.com
+2020/04/04 10:59:30 [Info] [4152388356] v2ray.com/core/app/dispatcher: default route for tcp:accounts.google.com:443
+2020/04/04 10:59:30 [Info] [4152388356] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 10:59:31 [Info] [4152388356] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:accounts.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 10:59:38 [Info] [1180298849] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:59:38 [Info] [1180298849] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:59:59 [Info] [3027804627] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 10:59:59 [Info] [3027804627] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 10:59:59 [Info] [2344325236] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 10:59:59 tcp:127.0.0.1:58005 accepted tcp:mtalk.google.com:5228 
+2020/04/04 10:59:59 [Info] [2344325236] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 10:59:59 [Info] [2344325236] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 10:59:59 [Info] [2344325236] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:00:00 [Info] [2344325236] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:00:32 [Info] [4152388356] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:00:32 [Info] [4152388356] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:00:48 [Info] [1619517361] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:00:48 [Info] [1619517361] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:00:55 [Info] [429399344] v2ray.com/core/proxy/socks: TCP Connect request to tcp:play.google.com:443
+2020/04/04 11:00:55 tcp:127.0.0.1:58104 accepted tcp:play.google.com:443 
+2020/04/04 11:00:55 [Info] [429399344] v2ray.com/core/app/dispatcher: sniffed domain: play.google.com
+2020/04/04 11:00:55 [Info] [429399344] v2ray.com/core/app/dispatcher: default route for tcp:play.google.com:443
+2020/04/04 11:00:55 [Info] [429399344] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:00:56 [Info] [429399344] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:play.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:01:03 [Info] [2344325236] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:01:03 [Info] [2344325236] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:01:03 [Info] [3876532890] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:01:03 tcp:127.0.0.1:58121 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:01:03 [Info] [3876532890] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:01:03 [Info] [3876532890] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:01:03 [Info] [3876532890] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:01:04 [Info] [3876532890] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:01:57 [Info] [429399344] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:01:57 [Info] [429399344] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:02:05 [Info] [3876532890] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:02:05 [Info] [3876532890] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:02:05 [Info] [2873128281] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:02:05 tcp:127.0.0.1:58229 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:02:05 [Info] [2873128281] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:02:05 [Info] [2873128281] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:02:05 [Info] [2873128281] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:02:06 [Info] [2873128281] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:03:07 [Info] [2873128281] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:03:07 [Info] [2873128281] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:03:07 [Info] [2098917297] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:03:07 tcp:127.0.0.1:58338 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:03:07 [Info] [2098917297] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:03:07 [Info] [2098917297] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:03:07 [Info] [2098917297] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:03:08 [Info] [2098917297] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:03:57 [Info] [2842000713] v2ray.com/core/proxy/socks: TCP Connect request to tcp:play.google.com:443
+2020/04/04 11:03:57 tcp:127.0.0.1:58430 accepted tcp:play.google.com:443 
+2020/04/04 11:03:57 [Info] [2842000713] v2ray.com/core/app/dispatcher: sniffed domain: play.google.com
+2020/04/04 11:03:57 [Info] [2842000713] v2ray.com/core/app/dispatcher: default route for tcp:play.google.com:443
+2020/04/04 11:03:57 [Info] [2842000713] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:03:58 [Info] [2842000713] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:play.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:04:08 [Info] [2098917297] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:04:08 [Info] [2098917297] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:04:08 [Info] [1642732840] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:04:08 tcp:127.0.0.1:58454 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:04:08 [Info] [1642732840] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:04:08 [Info] [1642732840] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:04:08 [Info] [1642732840] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:04:08 [Info] [1642732840] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:05:09 [Info] [1642732840] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:05:09 [Info] [1642732840] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:05:09 [Info] [2249206442] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:05:09 tcp:127.0.0.1:58562 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:05:09 [Info] [2249206442] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:05:09 [Info] [2249206442] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:05:09 [Info] [2249206442] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:05:10 [Info] [2249206442] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:05:30 [Info] [3824463496] v2ray.com/core/proxy/socks: TCP Connect request to tcp:accounts.google.com:443
+2020/04/04 11:05:30 tcp:127.0.0.1:58600 accepted tcp:accounts.google.com:443 
+2020/04/04 11:05:30 [Info] [3824463496] v2ray.com/core/app/dispatcher: sniffed domain: accounts.google.com
+2020/04/04 11:05:30 [Info] [3824463496] v2ray.com/core/app/dispatcher: default route for tcp:accounts.google.com:443
+2020/04/04 11:05:30 [Info] [3824463496] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:05:31 [Info] [3824463496] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:accounts.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:05:50 [Info] [2842000713] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:05:50 [Info] [2842000713] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:06:09 [Info] [3940557144] v2ray.com/core/proxy/socks: TCP Connect request to tcp:clients4.google.com:443
+2020/04/04 11:06:09 tcp:127.0.0.1:58675 accepted tcp:clients4.google.com:443 
+2020/04/04 11:06:09 [Info] [3940557144] v2ray.com/core/app/dispatcher: sniffed domain: clients4.google.com
+2020/04/04 11:06:09 [Info] [3940557144] v2ray.com/core/app/dispatcher: default route for tcp:clients4.google.com:443
+2020/04/04 11:06:09 [Info] [3940557144] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:06:10 [Info] [3940557144] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:clients4.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:06:10 [Info] [2249206442] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:06:10 [Info] [2249206442] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:06:10 [Info] [503793755] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:06:10 tcp:127.0.0.1:58680 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:06:10 [Info] [503793755] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:06:10 [Info] [503793755] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:06:10 [Info] [503793755] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:06:12 [Info] [503793755] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:06:32 [Info] [3824463496] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:06:32 [Info] [3824463496] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:07:10 [Info] [3940557144] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:07:10 [Info] [3940557144] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:07:12 [Info] [503793755] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:07:12 [Info] [503793755] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:07:12 tcp:127.0.0.1:58790 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:07:12 [Info] [4078933231] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:07:12 [Info] [4078933231] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:07:12 [Info] [4078933231] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:07:12 [Info] [4078933231] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:07:13 [Info] [4078933231] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:07:16 [Info] [3530553037] v2ray.com/core/proxy/socks: TCP Connect request to tcp:play.google.com:443
+2020/04/04 11:07:16 tcp:127.0.0.1:58795 accepted tcp:play.google.com:443 
+2020/04/04 11:07:16 [Info] [3530553037] v2ray.com/core/app/dispatcher: sniffed domain: play.google.com
+2020/04/04 11:07:16 [Info] [3530553037] v2ray.com/core/app/dispatcher: default route for tcp:play.google.com:443
+2020/04/04 11:07:16 [Info] [3530553037] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:07:16 [Info] [3530553037] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:play.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:08:14 [Info] [4078933231] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:08:14 [Info] [4078933231] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:08:14 [Info] [1342652816] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:08:14 tcp:127.0.0.1:58899 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:08:14 [Info] [1342652816] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:08:14 [Info] [1342652816] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:08:14 [Info] [1342652816] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:08:15 [Info] [1342652816] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:08:18 [Info] [3530553037] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:08:18 [Info] [3530553037] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:08:59 tcp:127.0.0.1:58979 accepted tcp:play.google.com:443 
+2020/04/04 11:08:59 [Info] [2591219414] v2ray.com/core/proxy/socks: TCP Connect request to tcp:play.google.com:443
+2020/04/04 11:08:59 [Info] [2591219414] v2ray.com/core/app/dispatcher: sniffed domain: play.google.com
+2020/04/04 11:08:59 [Info] [2591219414] v2ray.com/core/app/dispatcher: default route for tcp:play.google.com:443
+2020/04/04 11:08:59 [Info] [2591219414] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:08:59 [Info] [2591219414] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:play.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:09:00 [Info] [1599636714] v2ray.com/core/proxy/socks: TCP Connect request to tcp:play.google.com:443
+2020/04/04 11:09:00 tcp:127.0.0.1:58981 accepted tcp:play.google.com:443 
+2020/04/04 11:09:00 [Info] [1599636714] v2ray.com/core/app/dispatcher: sniffed domain: play.google.com
+2020/04/04 11:09:00 [Info] [1599636714] v2ray.com/core/app/dispatcher: default route for tcp:play.google.com:443
+2020/04/04 11:09:00 [Info] [1599636714] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:09:01 [Info] [1599636714] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:play.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:09:16 [Info] [1342652816] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:09:16 [Info] [1342652816] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:09:16 [Info] [2976314656] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:09:16 tcp:127.0.0.1:59013 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:09:16 [Info] [2976314656] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:09:16 [Info] [2976314656] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:09:16 [Info] [2976314656] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:09:17 [Info] [2976314656] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:09:30 [Info] [326604385] v2ray.com/core/proxy/socks: TCP Connect request to tcp:accounts.google.com:443
+2020/04/04 11:09:30 tcp:127.0.0.1:59036 accepted tcp:accounts.google.com:443 
+2020/04/04 11:09:30 [Info] [326604385] v2ray.com/core/app/dispatcher: sniffed domain: accounts.google.com
+2020/04/04 11:09:30 [Info] [326604385] v2ray.com/core/app/dispatcher: default route for tcp:accounts.google.com:443
+2020/04/04 11:09:30 [Info] [326604385] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:09:31 [Info] [326604385] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:accounts.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:09:57 tcp:127.0.0.1:59086 accepted tcp:www.google.com:443 
+2020/04/04 11:09:57 [Info] [3363641362] v2ray.com/core/proxy/socks: TCP Connect request to tcp:www.google.com:443
+2020/04/04 11:09:57 [Info] [3363641362] v2ray.com/core/app/dispatcher: sniffed domain: www.google.com
+2020/04/04 11:09:57 [Info] [3363641362] v2ray.com/core/app/dispatcher: default route for tcp:www.google.com:443
+2020/04/04 11:09:57 [Info] [3363641362] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:09:58 [Info] [3363641362] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:www.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:10:01 [Info] [504133529] v2ray.com/core/proxy/socks: TCP Connect request to tcp:clients4.google.com:443
+2020/04/04 11:10:01 tcp:127.0.0.1:59098 accepted tcp:clients4.google.com:443 
+2020/04/04 11:10:01 [Info] [504133529] v2ray.com/core/app/dispatcher: sniffed domain: clients4.google.com
+2020/04/04 11:10:01 [Info] [504133529] v2ray.com/core/app/dispatcher: default route for tcp:clients4.google.com:443
+2020/04/04 11:10:01 [Info] [504133529] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:10:02 [Info] [504133529] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:clients4.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:10:07 [Info] [2591219414] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:10:07 [Info] [2591219414] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:10:17 [Info] [2976314656] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:10:17 [Info] [2976314656] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:10:17 tcp:127.0.0.1:59132 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:10:17 [Info] [3255401626] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:10:17 [Info] [3255401626] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:10:17 [Info] [3255401626] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:10:17 [Info] [3255401626] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:10:18 [Info] [3255401626] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:10:31 [Info] [326604385] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:10:31 [Info] [326604385] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:10:51 [Info] [1599636714] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:10:51 [Info] [1599636714] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:10:59 [Info] [3363641362] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:10:59 [Info] [3363641362] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:11:03 [Info] [504133529] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:11:03 [Info] [504133529] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:11:10 [Info] [1785086335] v2ray.com/core/proxy/socks: TCP Connect request to tcp:play.google.com:443
+2020/04/04 11:11:10 tcp:127.0.0.1:59230 accepted tcp:play.google.com:443 
+2020/04/04 11:11:10 [Info] [1785086335] v2ray.com/core/app/dispatcher: sniffed domain: play.google.com
+2020/04/04 11:11:10 [Info] [1785086335] v2ray.com/core/app/dispatcher: default route for tcp:play.google.com:443
+2020/04/04 11:11:10 [Info] [1785086335] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:11:11 [Info] [1785086335] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:play.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:11:19 [Info] [3255401626] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:11:19 [Info] [3255401626] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:11:19 [Info] [2815160254] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:11:19 tcp:127.0.0.1:59247 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:11:19 [Info] [2815160254] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:11:19 [Info] [2815160254] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:11:19 [Info] [2815160254] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:11:20 [Info] [2815160254] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:12:11 [Info] [1785086335] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:12:11 [Info] [1785086335] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:12:21 [Info] [2815160254] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:12:21 [Info] [2815160254] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:12:21 [Info] [2481405805] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:12:21 tcp:127.0.0.1:59355 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:12:21 [Info] [2481405805] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:12:21 [Info] [2481405805] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:12:21 [Info] [2481405805] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:12:21 [Info] [2481405805] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:13:22 [Info] [2481405805] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:13:22 [Info] [2481405805] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:13:22 tcp:127.0.0.1:59464 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:13:22 [Info] [249286743] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:13:22 [Info] [249286743] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:13:22 [Info] [249286743] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:13:22 [Info] [249286743] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:13:24 [Info] [249286743] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:13:28 [Info] [3874831800] v2ray.com/core/proxy/socks: TCP Connect request to tcp:clients4.google.com:443
+2020/04/04 11:13:28 tcp:127.0.0.1:59477 accepted tcp:clients4.google.com:443 
+2020/04/04 11:13:28 [Info] [3874831800] v2ray.com/core/app/dispatcher: sniffed domain: clients4.google.com
+2020/04/04 11:13:28 [Info] [3874831800] v2ray.com/core/app/dispatcher: default route for tcp:clients4.google.com:443
+2020/04/04 11:13:28 [Info] [3874831800] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:13:29 [Info] [3874831800] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:clients4.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:14:00 tcp:127.0.0.1:59533 accepted tcp:play.google.com:443 
+2020/04/04 11:14:00 [Info] [4277592984] v2ray.com/core/proxy/socks: TCP Connect request to tcp:play.google.com:443
+2020/04/04 11:14:00 [Info] [4277592984] v2ray.com/core/app/dispatcher: sniffed domain: play.google.com
+2020/04/04 11:14:00 [Info] [4277592984] v2ray.com/core/app/dispatcher: default route for tcp:play.google.com:443
+2020/04/04 11:14:00 [Info] [4277592984] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:14:00 [Info] [4277592984] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:play.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:14:24 [Info] [249286743] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:14:24 [Info] [249286743] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:14:24 tcp:127.0.0.1:59581 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:14:24 [Info] [371536222] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:14:24 [Info] [371536222] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:14:24 [Info] [371536222] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:14:24 [Info] [371536222] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:14:25 [Info] [371536222] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:15:17 [Info] [3874831800] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:15:17 [Info] [3874831800] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:15:27 [Info] [371536222] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:15:27 [Info] [371536222] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:15:27 [Info] [1987131961] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:15:27 tcp:127.0.0.1:59692 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:15:27 [Info] [1987131961] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:15:27 [Info] [1987131961] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:15:27 [Info] [1987131961] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:15:27 [Info] [1987131961] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:15:30 [Info] [1541679786] v2ray.com/core/proxy/socks: TCP Connect request to tcp:accounts.google.com:443
+2020/04/04 11:15:30 tcp:127.0.0.1:59700 accepted tcp:accounts.google.com:443 
+2020/04/04 11:15:30 [Info] [1541679786] v2ray.com/core/app/dispatcher: sniffed domain: accounts.google.com
+2020/04/04 11:15:30 [Info] [1541679786] v2ray.com/core/app/dispatcher: default route for tcp:accounts.google.com:443
+2020/04/04 11:15:30 [Info] [1541679786] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:15:31 [Info] [1541679786] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:accounts.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:15:51 [Info] [4277592984] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:15:51 [Info] [4277592984] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:16:28 [Info] [1987131961] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:16:28 [Info] [1987131961] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:16:28 [Info] [4152884979] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:16:28 tcp:127.0.0.1:59801 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:16:28 [Info] [4152884979] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:16:28 [Info] [4152884979] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:16:28 [Info] [4152884979] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:16:30 [Info] [4152884979] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:16:31 [Info] [1541679786] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:16:31 [Info] [1541679786] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:17:26 [Info] [1892112939] v2ray.com/core/proxy/socks: TCP Connect request to tcp:clients4.google.com:443
+2020/04/04 11:17:26 tcp:127.0.0.1:59910 accepted tcp:clients4.google.com:443 
+2020/04/04 11:17:26 [Info] [1892112939] v2ray.com/core/app/dispatcher: sniffed domain: clients4.google.com
+2020/04/04 11:17:26 [Info] [1892112939] v2ray.com/core/app/dispatcher: default route for tcp:clients4.google.com:443
+2020/04/04 11:17:26 [Info] [1892112939] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:17:27 [Info] [1892112939] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:clients4.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:17:30 [Info] [1312216846] v2ray.com/core/proxy/socks: TCP Connect request to tcp:play.google.com:443
+2020/04/04 11:17:30 tcp:127.0.0.1:59920 accepted tcp:play.google.com:443 
+2020/04/04 11:17:30 [Info] [1312216846] v2ray.com/core/app/dispatcher: sniffed domain: play.google.com
+2020/04/04 11:17:30 [Info] [1312216846] v2ray.com/core/app/dispatcher: default route for tcp:play.google.com:443
+2020/04/04 11:17:30 [Info] [1312216846] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:17:30 [Info] [4152884979] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:17:30 [Info] [4152884979] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:17:30 tcp:127.0.0.1:59922 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:17:30 [Info] [722821785] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:17:30 [Info] [722821785] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:17:30 [Info] [722821785] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:17:30 [Info] [722821785] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:17:31 [Info] [1312216846] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:play.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:17:31 [Info] [722821785] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:17:48 [Info] [2818866592] v2ray.com/core/proxy/socks: TCP Connect request to tcp:www.google.com:443
+2020/04/04 11:17:48 tcp:127.0.0.1:59959 accepted tcp:www.google.com:443 
+2020/04/04 11:17:48 [Info] [3479265160] v2ray.com/core/proxy/socks: TCP Connect request to tcp:www.gstatic.com:443
+2020/04/04 11:17:48 tcp:127.0.0.1:59960 accepted tcp:www.gstatic.com:443 
+2020/04/04 11:17:48 [Info] [2818866592] v2ray.com/core/app/dispatcher: sniffed domain: www.google.com
+2020/04/04 11:17:48 [Info] [2818866592] v2ray.com/core/app/dispatcher: default route for tcp:www.google.com:443
+2020/04/04 11:17:48 [Info] [2818866592] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:17:48 [Info] [3479265160] v2ray.com/core/app/dispatcher: sniffed domain: www.gstatic.com
+2020/04/04 11:17:48 [Info] [3479265160] v2ray.com/core/app/dispatcher: default route for tcp:www.gstatic.com:443
+2020/04/04 11:17:48 [Info] [3479265160] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:17:48 [Info] [3479265160] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:www.gstatic.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:17:48 [Info] [2818866592] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:www.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:18:32 [Info] [722821785] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:18:32 [Info] [722821785] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:18:32 [Info] [3082337688] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:18:32 [Info] [3082337688] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:18:32 [Info] [3082337688] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:18:32 [Info] [3082337688] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:18:32 tcp:127.0.0.1:60104 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:18:32 [Info] [3082337688] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443
+2020/04/04 11:18:49 [Info] [3479265160] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:18:49 [Info] [3479265160] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:18:51 [Info] [2818866592] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:18:51 [Info] [2818866592] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:19:25 [Info] [1892112939] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:19:25 [Info] [1892112939] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:19:30 [Info] [1679762311] v2ray.com/core/proxy/socks: TCP Connect request to tcp:accounts.google.com:443
+2020/04/04 11:19:30 tcp:127.0.0.1:60205 accepted tcp:accounts.google.com:443 
+2020/04/04 11:19:30 [Info] [1679762311] v2ray.com/core/app/dispatcher: sniffed domain: accounts.google.com
+2020/04/04 11:19:30 [Info] [1679762311] v2ray.com/core/app/dispatcher: default route for tcp:accounts.google.com:443
+2020/04/04 11:19:30 [Info] [1679762311] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:19:31 [Info] [1679762311] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:accounts.google.com:443 via tcp:www.ingogogo.com:443
+2020/04/04 11:19:33 [Info] [3082337688] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > websocket: close 1006 (abnormal closure): unexpected EOF
+2020/04/04 11:19:33 [Info] [3082337688] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > v2ray.com/core/proxy/socks: failed to transport all TCP response > io: read/write on closed pipe
+2020/04/04 11:19:33 [Info] [847950352] v2ray.com/core/proxy/socks: TCP Connect request to tcp:mtalk.google.com:5228
+2020/04/04 11:19:33 tcp:127.0.0.1:60213 accepted tcp:mtalk.google.com:5228 
+2020/04/04 11:19:33 [Info] [847950352] v2ray.com/core/app/dispatcher: sniffed domain: mtalk.google.com
+2020/04/04 11:19:33 [Info] [847950352] v2ray.com/core/app/dispatcher: default route for tcp:mtalk.google.com:5228
+2020/04/04 11:19:33 [Info] [847950352] v2ray.com/core/transport/internet/websocket: creating connection to tcp:www.ingogogo.com:443
+2020/04/04 11:19:34 [Info] [847950352] v2ray.com/core/proxy/vmess/outbound: tunneling request to tcp:mtalk.google.com:5228 via tcp:www.ingogogo.com:443

@@ -1,6 +1,6 @@
 #!/bin/bash
-
-content=`wget -q -O - http://icanhazip.com/|sed 's/\.//g'`
+real_ip=`wget -q -O - http://icanhazip.com/`
+content=`echo $real_ip|sed 's/\.//g'`
 content_ip_record=`ping fuckme.ingogogo.com -c 1|grep -oP '(?<=\().*(?=\) \d)'|sed 's/\.//g'`
 dns_ip_len=`echo $content_ip_record|wc -l`
 if [ ${#dns_ip_len} -eq 5 ];
@@ -50,6 +50,6 @@ function judge()
 {
 if [ $content == $content_ip_record ];
 	then echo 'do nothing';
-else modify_record $content;
+else modify_record $real_ip;
 fi
 }
