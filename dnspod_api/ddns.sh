@@ -3,7 +3,7 @@
 content=`wget -q -O - http://icanhazip.com/|sed 's/\.//g'`
 content_ip_record=`ping fuckme.ingogogo.com -c 1|grep -oP '(?<=\().*(?=\) \d)'|sed 's/\.//g'`
 dns_ip_len=`echo $content_ip_record|wc -l`
-if [ length(dns_ip_len) -eq 5 ];
+if [ ${#dns_ip_len} -eq 5 ];
 then content_ip_record='114114114114'
 fi
 # api_token 去这里申请 https://www.dnspod.cn/console/user/security 
