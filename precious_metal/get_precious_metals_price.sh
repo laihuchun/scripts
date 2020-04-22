@@ -1,4 +1,5 @@
 #!/bin/bash
+#   http://tool.ccb.com/webtran/static/trendchart/index.html 这里爬
 #  品种code
 #					<option value="019995">AU9995</option>
 #					<option value="019999">AU9999</option>
